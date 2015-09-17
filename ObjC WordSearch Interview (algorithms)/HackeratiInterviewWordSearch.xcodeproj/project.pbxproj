@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB80E1BD19829C3C0070257C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80E1BC19829C3B0070257C /* Foundation.framework */; };
+		BB80E1BF19829C3C0070257C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80E1BE19829C3C0070257C /* CoreGraphics.framework */; };
+		BB80E1C119829C3C0070257C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80E1C019829C3C0070257C /* UIKit.framework */; };
+		BB80E1C719829C3C0070257C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB80E1C519829C3C0070257C /* InfoPlist.strings */; };
+		BB80E1C919829C3C0070257C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1C819829C3C0070257C /* main.m */; };
+		BB80E1CD19829C3C0070257C /* HAKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1CC19829C3C0070257C /* HAKAppDelegate.m */; };
+		BB80E1CF19829C3C0070257C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB80E1CE19829C3C0070257C /* Images.xcassets */; };
+		BB80E1D619829C3C0070257C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80E1D519829C3C0070257C /* XCTest.framework */; };
+		BB80E1D719829C3C0070257C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80E1BC19829C3B0070257C /* Foundation.framework */; };
+		BB80E1D819829C3C0070257C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80E1C019829C3C0070257C /* UIKit.framework */; };
+		BB80E1E019829C3C0070257C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB80E1DE19829C3C0070257C /* InfoPlist.strings */; };
+		BB80E1E219829C3C0070257C /* HackeratiInterviewWordSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1E119829C3C0070257C /* HackeratiInterviewWordSearchTests.m */; };
+		BB80E1ED19829C700070257C /* GAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1EC19829C700070257C /* GAMainViewController.m */; };
+		BB80E1F019829C760070257C /* GABoard.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1EF19829C760070257C /* GABoard.m */; };
+		BB80E1F319829C7D0070257C /* GASolver.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1F219829C7D0070257C /* GASolver.m */; };
+		BB80E1F619829CAB0070257C /* GATile.m in Sources */ = {isa = PBXBuildFile; fileRef = BB80E1F519829CAB0070257C /* GATile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB80E1D919829C3C0070257C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB80E1B119829C3B0070257C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB80E1B819829C3B0070257C;
+			remoteInfo = HackeratiInterviewWordSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB80E1B919829C3B0070257C /* HackeratiInterviewWordSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackeratiInterviewWordSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80E1BC19829C3B0070257C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB80E1BE19829C3C0070257C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB80E1C019829C3C0070257C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB80E1C419829C3C0070257C /* HackeratiInterviewWordSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackeratiInterviewWordSearch-Info.plist"; sourceTree = "<group>"; };
+		BB80E1C619829C3C0070257C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB80E1C819829C3C0070257C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB80E1CA19829C3C0070257C /* HackeratiInterviewWordSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackeratiInterviewWordSearch-Prefix.pch"; sourceTree = "<group>"; };
+		BB80E1CB19829C3C0070257C /* HAKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAKAppDelegate.h; sourceTree = "<group>"; };
+		BB80E1CC19829C3C0070257C /* HAKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAKAppDelegate.m; sourceTree = "<group>"; };
+		BB80E1CE19829C3C0070257C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB80E1D419829C3C0070257C /* HackeratiInterviewWordSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackeratiInterviewWordSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB80E1D519829C3C0070257C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB80E1DD19829C3C0070257C /* HackeratiInterviewWordSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackeratiInterviewWordSearchTests-Info.plist"; sourceTree = "<group>"; };
+		BB80E1DF19829C3C0070257C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB80E1E119829C3C0070257C /* HackeratiInterviewWordSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackeratiInterviewWordSearchTests.m; sourceTree = "<group>"; };
+		BB80E1EB19829C700070257C /* GAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMainViewController.h; sourceTree = "<group>"; };
+		BB80E1EC19829C700070257C /* GAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMainViewController.m; sourceTree = "<group>"; };
+		BB80E1EE19829C760070257C /* GABoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GABoard.h; sourceTree = "<group>"; };
+		BB80E1EF19829C760070257C /* GABoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GABoard.m; sourceTree = "<group>"; };
+		BB80E1F119829C7D0070257C /* GASolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASolver.h; sourceTree = "<group>"; };
+		BB80E1F219829C7D0070257C /* GASolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASolver.m; sourceTree = "<group>"; };
+		BB80E1F419829CAB0070257C /* GATile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATile.h; sourceTree = "<group>"; };
+		BB80E1F519829CAB0070257C /* GATile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB80E1B619829C3B0070257C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80E1BF19829C3C0070257C /* CoreGraphics.framework in Frameworks */,
+				BB80E1C119829C3C0070257C /* UIKit.framework in Frameworks */,
+				BB80E1BD19829C3C0070257C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB80E1D119829C3C0070257C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80E1D619829C3C0070257C /* XCTest.framework in Frameworks */,
+				BB80E1D819829C3C0070257C /* UIKit.framework in Frameworks */,
+				BB80E1D719829C3C0070257C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB80E1B019829C3B0070257C = {
+			isa = PBXGroup;
+			children = (
+				BB80E1C219829C3C0070257C /* HackeratiInterviewWordSearch */,
+				BB80E1DB19829C3C0070257C /* HackeratiInterviewWordSearchTests */,
+				BB80E1BB19829C3B0070257C /* Frameworks */,
+				BB80E1BA19829C3B0070257C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB80E1BA19829C3B0070257C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1B919829C3B0070257C /* HackeratiInterviewWordSearch.app */,
+				BB80E1D419829C3C0070257C /* HackeratiInterviewWordSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB80E1BB19829C3B0070257C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1BC19829C3B0070257C /* Foundation.framework */,
+				BB80E1BE19829C3C0070257C /* CoreGraphics.framework */,
+				BB80E1C019829C3C0070257C /* UIKit.framework */,
+				BB80E1D519829C3C0070257C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB80E1C219829C3C0070257C /* HackeratiInterviewWordSearch */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1CB19829C3C0070257C /* HAKAppDelegate.h */,
+				BB80E1CC19829C3C0070257C /* HAKAppDelegate.m */,
+				BB80E1EB19829C700070257C /* GAMainViewController.h */,
+				BB80E1EC19829C700070257C /* GAMainViewController.m */,
+				BB80E1F71982A56E0070257C /* Board */,
+				BB80E1F119829C7D0070257C /* GASolver.h */,
+				BB80E1F219829C7D0070257C /* GASolver.m */,
+				BB80E1CE19829C3C0070257C /* Images.xcassets */,
+				BB80E1C319829C3C0070257C /* Supporting Files */,
+			);
+			path = HackeratiInterviewWordSearch;
+			sourceTree = "<group>";
+		};
+		BB80E1C319829C3C0070257C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1C419829C3C0070257C /* HackeratiInterviewWordSearch-Info.plist */,
+				BB80E1C519829C3C0070257C /* InfoPlist.strings */,
+				BB80E1C819829C3C0070257C /* main.m */,
+				BB80E1CA19829C3C0070257C /* HackeratiInterviewWordSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB80E1DB19829C3C0070257C /* HackeratiInterviewWordSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1E119829C3C0070257C /* HackeratiInterviewWordSearchTests.m */,
+				BB80E1DC19829C3C0070257C /* Supporting Files */,
+			);
+			path = HackeratiInterviewWordSearchTests;
+			sourceTree = "<group>";
+		};
+		BB80E1DC19829C3C0070257C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1DD19829C3C0070257C /* HackeratiInterviewWordSearchTests-Info.plist */,
+				BB80E1DE19829C3C0070257C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB80E1F71982A56E0070257C /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				BB80E1EE19829C760070257C /* GABoard.h */,
+				BB80E1EF19829C760070257C /* GABoard.m */,
+				BB80E1F419829CAB0070257C /* GATile.h */,
+				BB80E1F519829CAB0070257C /* GATile.m */,
+			);
+			name = Board;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB80E1B819829C3B0070257C /* HackeratiInterviewWordSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB80E1E519829C3C0070257C /* Build configuration list for PBXNativeTarget "HackeratiInterviewWordSearch" */;
+			buildPhases = (
+				BB80E1B519829C3B0070257C /* Sources */,
+				BB80E1B619829C3B0070257C /* Frameworks */,
+				BB80E1B719829C3B0070257C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackeratiInterviewWordSearch;
+			productName = HackeratiInterviewWordSearch;
+			productReference = BB80E1B919829C3B0070257C /* HackeratiInterviewWordSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB80E1D319829C3C0070257C /* HackeratiInterviewWordSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB80E1E819829C3C0070257C /* Build configuration list for PBXNativeTarget "HackeratiInterviewWordSearchTests" */;
+			buildPhases = (
+				BB80E1D019829C3C0070257C /* Sources */,
+				BB80E1D119829C3C0070257C /* Frameworks */,
+				BB80E1D219829C3C0070257C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB80E1DA19829C3C0070257C /* PBXTargetDependency */,
+			);
+			name = HackeratiInterviewWordSearchTests;
+			productName = HackeratiInterviewWordSearchTests;
+			productReference = BB80E1D419829C3C0070257C /* HackeratiInterviewWordSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB80E1B119829C3B0070257C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HAK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hackerati;
+				TargetAttributes = {
+					BB80E1D319829C3C0070257C = {
+						TestTargetID = BB80E1B819829C3B0070257C;
+					};
+				};
+			};
+			buildConfigurationList = BB80E1B419829C3B0070257C /* Build configuration list for PBXProject "HackeratiInterviewWordSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB80E1B019829C3B0070257C;
+			productRefGroup = BB80E1BA19829C3B0070257C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB80E1B819829C3B0070257C /* HackeratiInterviewWordSearch */,
+				BB80E1D319829C3C0070257C /* HackeratiInterviewWordSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB80E1B719829C3B0070257C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80E1C719829C3C0070257C /* InfoPlist.strings in Resources */,
+				BB80E1CF19829C3C0070257C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB80E1D219829C3C0070257C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80E1E019829C3C0070257C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB80E1B519829C3B0070257C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80E1F019829C760070257C /* GABoard.m in Sources */,
+				BB80E1F319829C7D0070257C /* GASolver.m in Sources */,
+				BB80E1C919829C3C0070257C /* main.m in Sources */,
+				BB80E1F619829CAB0070257C /* GATile.m in Sources */,
+				BB80E1ED19829C700070257C /* GAMainViewController.m in Sources */,
+				BB80E1CD19829C3C0070257C /* HAKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB80E1D019829C3C0070257C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80E1E219829C3C0070257C /* HackeratiInterviewWordSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB80E1DA19829C3C0070257C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB80E1B819829C3B0070257C /* HackeratiInterviewWordSearch */;
+			targetProxy = BB80E1D919829C3C0070257C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB80E1C519829C3C0070257C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB80E1C619829C3C0070257C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB80E1DE19829C3C0070257C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB80E1DF19829C3C0070257C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB80E1E319829C3C0070257C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB80E1E419829C3C0070257C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB80E1E619829C3C0070257C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackeratiInterviewWordSearch/HackeratiInterviewWordSearch-Prefix.pch";
+				INFOPLIST_FILE = "HackeratiInterviewWordSearch/HackeratiInterviewWordSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB80E1E719829C3C0070257C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackeratiInterviewWordSearch/HackeratiInterviewWordSearch-Prefix.pch";
+				INFOPLIST_FILE = "HackeratiInterviewWordSearch/HackeratiInterviewWordSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB80E1E919829C3C0070257C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackeratiInterviewWordSearch.app/HackeratiInterviewWordSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackeratiInterviewWordSearch/HackeratiInterviewWordSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackeratiInterviewWordSearchTests/HackeratiInterviewWordSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB80E1EA19829C3C0070257C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackeratiInterviewWordSearch.app/HackeratiInterviewWordSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackeratiInterviewWordSearch/HackeratiInterviewWordSearch-Prefix.pch";
+				INFOPLIST_FILE = "HackeratiInterviewWordSearchTests/HackeratiInterviewWordSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB80E1B419829C3B0070257C /* Build configuration list for PBXProject "HackeratiInterviewWordSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80E1E319829C3C0070257C /* Debug */,
+				BB80E1E419829C3C0070257C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB80E1E519829C3C0070257C /* Build configuration list for PBXNativeTarget "HackeratiInterviewWordSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80E1E619829C3C0070257C /* Debug */,
+				BB80E1E719829C3C0070257C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB80E1E819829C3C0070257C /* Build configuration list for PBXNativeTarget "HackeratiInterviewWordSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80E1E919829C3C0070257C /* Debug */,
+				BB80E1EA19829C3C0070257C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB80E1B119829C3B0070257C /* Project object */;
+}
